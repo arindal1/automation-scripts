@@ -42,3 +42,22 @@ To find the process name more precisely, you can run the script and then check t
 To stop the script, you can terminate its process. You can do this using the task manager or a similar system monitoring tool, or by using the psutil library to find and terminate the process programmatically.
 
    - Here's a simple example of how you can use psutil to terminate the script: [close_process](close_process.py).
+
+
+### How to run the bash script?
+
+Bash doesn't have built-in libraries like `psutil` and `plyer`, so the script uses standard Linux commands for system monitoring and the `zenity` command for desktop notifications.
+
+Save the script and make it executable with the following command:
+
+```bash
+chmod +x system_monitor.sh
+```
+
+You can then run the script using:
+
+```bash
+./system_monitor.sh
+```
+
+> PS: This Bash script is a simplified example and may need adjustments based on your specific requirements and the platform you are running it on. Also, ensure that `zenity` is installed on your system for the desktop notifications. If it's not installed, you can usually install it using your package manager (e.g., `sudo apt-get install zenity` on Debian-based systems).
