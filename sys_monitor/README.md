@@ -5,7 +5,7 @@ It also sends alert notifications when the usage of certain stat crosses the spe
 
 ### Dependencies:
 
-Sure, here are the dependencies used in your script:
+Here are the dependencies used in your script:
 
 1. **psutil:**
    - Purpose: Provides an interface for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors).
@@ -21,7 +21,7 @@ Sure, here are the dependencies used in your script:
      pip install plyer
      ```
 
-Make sure to run these commands in your terminal or command prompt to install the required dependencies before running the script. If you encounter any issues during installation, please let me know, and I'll be happy to assist you further.
+Make sure to run these commands in your terminal or command prompt to install the required dependencies before running the script. If you encounter any issues during installation.
 
 ### Running the Script:
 
@@ -36,9 +36,9 @@ Keep in mind that the exact name may vary depending on your operating system and
 
 To find the process name more precisely, you can run the script and then check the Task Manager to see the exact name under the "Processes" tab.
 
-    Additionally, you can use the `psutil` library to programmatically find the process name. Here's an example [find_process](find_process.py).
+   - Additionally, you can use the `psutil` library to programmatically find the process name. Here's an example [find_process](find_process.py).
 
 
 To stop the script, you can terminate its process. You can do this using the task manager or a similar system monitoring tool, or by using the psutil library to find and terminate the process programmatically.
 
-    Here's a simple example of how you can use psutil to terminate the script: [close_process](close_process.py).
+   - Here's a simple example of how you can use psutil to terminate the script: [close_process](close_process.py).
