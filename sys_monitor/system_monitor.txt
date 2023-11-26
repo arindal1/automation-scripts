@@ -1,0 +1,4 @@
+2023-11-26 11:36:20,212 - Script started.
+2023-11-26 11:36:21,217 - High Memory usage: 83.2%
+2023-11-26 11:36:21,233 - High Disk usage: 91.6%
+2023-11-26 11:36:21,233 - System check completed.
