@@ -32,5 +32,5 @@ It uses Streamlit to create a simple web application where users can input proje
 
 ## Run
 
-- Use command: `streamlit code_temp.py` for the streamlit version.
+- Use command: `streamlit run code_temp.py` for the streamlit version.
 
