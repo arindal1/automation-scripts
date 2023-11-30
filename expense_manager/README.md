@@ -10,6 +10,10 @@ Expense Tracker is a simple Python script with a Streamlit-based user interface 
 
 ## File Structure
 
-- `expense_tracker_streamlit.py`: The main Python script containing the Streamlit app.
+- `expense_mngr.py`: The main Python script containing the Streamlit app.
 - `expenses.json`: JSON file to store expense data.
 - `expense_log.txt`: Text file to log all expenses.
+
+## How to run?
+
+- Run the command: `streamlit run expense_mngr.py' to open a streamlit localhost.
