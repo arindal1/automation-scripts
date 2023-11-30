@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2023-11-30 19:08:56",
+    "category": "Food",
+    "amount": 100.0
+  },
+  {
+    "timestamp": "2023-11-30 19:09:01",
+    "category": "Food",
+    "amount": 150.0
+  },
+  {
+    "timestamp": "2023-11-30 19:09:06",
+    "category": "Food",
+    "amount": 325.0
+  },
+  {
+    "timestamp": "2023-11-30 19:09:15",
+    "category": "Drinks",
+    "amount": 400.0
+  },
+  {
+    "timestamp": "2023-11-30 19:09:19",
+    "category": "Drinks",
+    "amount": 750.0
+  }
+]
