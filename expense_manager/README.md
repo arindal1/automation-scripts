@@ -16,4 +16,4 @@ Expense Tracker is a simple Python script with a Streamlit-based user interface 
 
 ## How to run?
 
-- Run the command: `streamlit run expense_mngr.py' to open a streamlit localhost.
+- Run the command: `streamlit run expense_mngr.py` to open a streamlit localhost.
