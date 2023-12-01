@@ -28,7 +28,7 @@ The scripts in this repository are written in various languages, including:
 ## How to use?
 (most scripts need their dependencies, so install them before running the scripts)
 
-- **Python** codes can be run through the terminal using `python filename.py` or if it uses **Streamlit** use `streamlit run filename.py`.
+- **Python** codes can be run through the terminal using `python filename.py` or if it uses **Streamlit** use `streamlit run filename.py`, and run **Flask** files using `python app.py` and the access the localhost using `app.run(debug=True, port=8000)`.
 - **Shell** scripts can be run through the terminal. You have to make the file executable using `chmod +x your_script_name.sh` then run it using `./your_script_name.sh`.
 - **CPP** scripts can be run through the terminal by compiling it using `g++ your_file.cpp -o output_executable` then running the compiled file using `./output_executable`.
 
@@ -46,5 +46,5 @@ Please provide a clear and concise description of your changes or additions.
 
 ## License
 
-This repository is licensed under the [MIT License](https://github.com/arindal1/automation-scripts/blob/main/LICENSE). See the [LICENSE](LICENSE) file for details.
+This repository is licensed under the [MIT License](https://opensource.org/license/mit/). See the [LICENSE](LICENSE) file for details.
 
