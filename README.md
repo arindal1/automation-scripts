@@ -8,11 +8,16 @@ This repository houses a collection of automation scripts written in various pro
 
 | Script | Link |
 | -------- | :--------: |
+| Algebra Solver | [algbr-slvr](https://github.com/arindal1/automation-scripts/tree/main/algebra_solver) |
 | Code Template / Boilerplate Generator | [blrplt-gen](https://github.com/arindal1/automation-scripts/tree/main/boilerplate_generator) |
 | Disk Cleanup Utility | [dskcln-utl](https://github.com/arindal1/automation-scripts/tree/main/disk_cleanup) |
 | Expense Manager / Tracker | [xpns-mngr](https://github.com/arindal1/automation-scripts/tree/main/expense_manager) |
+| Image to ASCII Art | [ascii-cnvtr](https://github.com/arindal1/automation-scripts/tree/main/image_to_ascii) |
 | Password Generator | [psswrd-gen](https://github.com/arindal1/automation-scripts/tree/main/password_gen) |
+| Prolog Template Scripts | [prlg-scrpts](https://github.com/arindal1/automation-scripts/tree/main/prolog_scripts) |
 | System Resourse Monitor | [sys-mntr](https://github.com/arindal1/automation-scripts/tree/main/sys_monitor) |
+| Voice Language Translator | [lang-trnsltr](https://github.com/arindal1/automation-scripts/tree/main/voice_translator) |
+| WhatsApp Mass Ping | [mass-png](https://github.com/arindal1/automation-scripts/tree/main/wp_mass_mention) |
 | Youtube Downloader | [yt-dwnldr](https://github.com/arindal1/automation-scripts/tree/main/yt_downloader) |
 |  |  |
 
@@ -21,9 +26,9 @@ This repository houses a collection of automation scripts written in various pro
 
 The scripts in this repository are written in various languages, including:
 
-- Python
-- Shell
-- C++
+| | | | | | | |
+| -- | -- | -- | -- | -- | -- | -- |
+| Python | C++ | C# | Prolog | Rust | Shell | JavaScript |
 
 ## How to use?
 (most scripts need their dependencies, so install them before running the scripts)
