@@ -52,8 +52,8 @@ You can customize the pixel sorting parameters by modifying the `randomize_param
 
 ## Image Used
 
-![image1](images/dragon.jpg)
+![image1](pxl_srtr/generated/result-01.png)
 
 ## Result
 
-![image2](images/result-01.png)
+![image2](pxl_srtr/generated/result-01.png)
