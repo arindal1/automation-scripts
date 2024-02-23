@@ -50,3 +50,10 @@ This command will generate 5 sorted images based on the input image and save the
 
 You can customize the pixel sorting parameters by modifying the `randomize_params` function in the `autosort.py` script. This function randomizes values for various parameters such as angle, interval function, randomness, lower threshold, upper threshold, and sorting function.
 
+## Image Used
+
+![image1](images/dragon.jpg)
+
+## Result
+
+![image2](images/result-01.png)
