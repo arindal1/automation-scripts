@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/3522/3522461.png">
+</head>
+<style>
+    body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; /* Dark background */
+    color: #00ff00; /* Matrix green */
+    font-family: monospace;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+</style>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+</body>
+
+<script>
+    const canvas = document.getElementById('matrixCanvas');
+const ctx = canvas.getContext('2d');
+
+// Make the canvas full-screen
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const letters = Array(256).join(1).split('');
+
+const getRandomCharacter = () => {
+    const charSets = [
+        [0x0030, 0x0039], // Digits (0-9)
+        [0x0041, 0x005A], // English Uppercase Letters (A-Z)
+        [0x0061, 0x007A], // English Lowercase Letters (a-z)
+        [0x0391, 0x03A9], // Greek Uppercase Letters (Α-Ω)
+        [0x03B1, 0x03C9], // Greek Lowercase Letters (α-ω)
+        [0x30A0, 0x30FF]  // Katakana
+    ];
+
+    // Randomly pick a character set
+    const charSet = charSets[Math.floor(Math.random() * charSets.length)];
+    // Generate a random character from the chosen set
+    return String.fromCharCode(charSet[0] + Math.random() * (charSet[1] - charSet[0] + 1));
+};
+
+const drawMatrix = () => {
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'; // Background fade effect
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = '#00ff00'; // Matrix green
+    ctx.font = '16pt monospace';
+
+    letters.map((y_pos, index) => {
+        const text = getRandomCharacter(); // Get a random character
+        const x_pos = index * 20;
+
+        ctx.fillText(text, x_pos, y_pos);
+
+        // Reset y position if out of canvas height or randomly for variety
+        letters[index] = y_pos > canvas.height + Math.random() * 1e4 ? 0 : y_pos + 20;
+    });
+};
+
+// Animation loop
+setInterval(drawMatrix, 50);
+
+// Handle screen resize
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+
+</script>
+</html>
